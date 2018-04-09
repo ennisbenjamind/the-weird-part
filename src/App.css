@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  margin-top: 25%;
+  background-color: black;
+  width: 300px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+button {
+  background-color: black;
+  border: 0px
+}
+
+a {
+  font-size: 20px
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+body {
+  background-image: url("http://cdn.ebaumsworld.com/thumbs/2012/06/27/031022/951272/bboy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+h1{
+  color: red;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
