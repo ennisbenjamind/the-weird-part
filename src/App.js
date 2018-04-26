@@ -38,12 +38,11 @@ class App extends Component {
   }
 
 
-
   render() {
     return (
       <div className="App">
         <h1> THE WEIRD PART </h1>
-        <button><a target= "_blank" href= {this.state.link}>Get weird</a></button>
+        <button onClick={this.componentDidMount()}><a target= "_blank" href= {this.state.link}>Get weird</a></button>
       </div>
     );
   }
